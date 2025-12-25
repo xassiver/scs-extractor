@@ -1,0 +1,41 @@
+# Build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PyInstaller
+*.spec
+
+# Test files
+test_*.c
+test_*.exe
+sample.zip
+sample.scs
+*.scs
+
+# Compiled files
+*.exe
+!7za.exe
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.temp
+tcc/
+tcc.zip
